@@ -1,15 +1,43 @@
 .container {
 	position: fixed;
 	left: 0;
-	width: 616px;
+	width: 628px;
 	height: 100%;
 	overflow: scroll;
-	transform: translate(-616px);
+	transform: translate(-628px);
 	transition: transform 0.5s ease;
 }
 
 .container_open {
 	transform: translate(0);
+}
+
+.label {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 31px;
+	text-transform: uppercase;
+	color: #000000;
+	margin-bottom: 50px;
+}
+
+.parameters {
+	display: flex;
+	width: auto;
+	flex-direction: column;
+	row-gap: 50px;
+	margin-bottom: 50px;
+}
+
+.parameter_name {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 12px;
+	line-height: 16px;
+	text-transform: uppercase;
+	color: #000000;
 }
 
 .form {
