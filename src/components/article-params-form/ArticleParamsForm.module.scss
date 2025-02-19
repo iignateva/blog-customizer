@@ -1,10 +1,10 @@
 .container {
 	position: fixed;
 	left: 0;
-	width: 628px;
+	width: 616px;
 	height: 100%;
 	overflow: scroll;
-	transform: translate(-628px);
+	transform: translate(-616px);
 	transition: transform 0.5s ease;
 }
 
@@ -12,38 +12,11 @@
 	transform: translate(0);
 }
 
-.label {
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 800;
-	font-size: 31px;
-	text-transform: uppercase;
-	color: #000000;
-	margin-bottom: 50px;
-}
-
-.parameters {
-	display: flex;
-	width: auto;
-	flex-direction: column;
-	row-gap: 50px;
-	margin-bottom: 50px;
-}
-
-.parameter_name {
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 800;
-	font-size: 12px;
-	line-height: 16px;
-	text-transform: uppercase;
-	color: #000000;
-}
-
 .form {
 	display: flex;
 	flex-shrink: 0;
 	flex-direction: column;
+	row-gap: 50px;
 	box-sizing: border-box;
 	width: 616px;
 	height: auto;
